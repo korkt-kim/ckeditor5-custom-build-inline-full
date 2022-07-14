@@ -28,6 +28,13 @@ import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
+import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor.js';
+import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor.js';
+import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily.js';
+import FontSize from '@ckeditor/ckeditor5-font/src/fontsize.js';
+import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
+import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment.js';
+import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 
 class Editor extends InlineEditor {}
 
