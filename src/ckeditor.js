@@ -47,6 +47,11 @@ Editor.builtinPlugins = [
 	CKFinderUploadAdapter,
 	CloudServices,
 	Essentials,
+	FontBackgroundColor,
+	FontColor,
+	FontFamily,
+	FontSize,
+	Underline,
 	Heading,
 	Image,
 	ImageCaption,
@@ -64,7 +69,9 @@ Editor.builtinPlugins = [
 	TableProperties,
 	TableCellProperties,
 	TableToolbar,
-	TextTransformation
+	TextTransformation,
+	Alignment,
+	EasyImage
 ];
 
 // Editor configuration.
@@ -75,19 +82,25 @@ Editor.defaultConfig = {
 			'|',
 			'bold',
 			'italic',
+			'underline',
 			'link',
 			'bulletedList',
 			'numberedList',
 			'|',
-			'outdent',
+			'fontBackgroundColor',
+			'fontSize',
+			'fontColor',
+			'fontFamily',
+			'|',
 			'indent',
+			'outdent',
 			'|',
 			'imageUpload',
 			'blockQuote',
 			'insertTable',
 			'mediaEmbed',
 			'undo',
-			'redo'
+			'redo',
 		]
 	},
 	language: 'ko',
