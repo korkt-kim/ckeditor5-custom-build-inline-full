@@ -25,6 +25,7 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice.js';
 import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
+import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
 
@@ -54,6 +55,7 @@ Editor.builtinPlugins = [
 	PasteFromOffice,
 	Table,
 	TableProperties,
+	TableCellProperties,
 	TableToolbar,
 	TextTransformation
 ];
@@ -95,7 +97,8 @@ Editor.defaultConfig = {
 			'tableColumn',
 			'tableRow',
 			'mergeTableCells',
-			'tableProperties'
+			'tableProperties',
+			'tableCellProperties'
 		]
 	}
 };
